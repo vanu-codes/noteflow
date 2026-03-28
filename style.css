@@ -237,45 +237,52 @@ textarea {
 @media (max-width: 500px) {
 
   .container {
-    padding: 16px;
+    padding: 18px;
   }
 
+  /* TEXTAREA */
   textarea {
-    height: 120px;
+    height: 130px;
     font-size: 16px;
-  }
-
-  #addNoteBtn {
     padding: 12px;
-    font-size: 16px;
-    border-radius: 8px;
   }
 
+  /* ADD BUTTON */
+  #addNoteBtn {
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  /* SEARCH */
   #searchInput {
     padding: 12px;
     font-size: 16px;
   }
 
+  /* NOTE CARD */
   .note {
-    padding: 16px;
-    border-radius: 14px;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 16px;
   }
 
+  /* NOTE TEXT */
   .note p {
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 14px;
   }
 
+  /* BUTTON CONTAINER */
   .note-actions {
-    gap: 8px;
+    gap: 10px;
   }
 
+  /* BUTTONS */
   .note button {
-    padding: 8px 10px;
-    font-size: 14px;
+    padding: 10px 14px;
+    font-size: 15px;
+    border-radius: 8px;
   }
-}
-    min-width: auto;
-    font-size: 11px;
-    padding: 6px 10px;
-  }
+
 }
