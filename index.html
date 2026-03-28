@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <header>
+      <h1>📝 Smart Notes</h1>
+      <button id="themeToggle">🌙</button>
+    </header>
+    <!-- textarea and add button-->
+    <div class="input-section">
+      <textarea id="noteInput" placeholder="Write your note..."></textarea>
+      <div class="btn-group">
+        <button id="addNoteBtn">Add Note</button>
+        <button id="cancelnotebtn" class="cancel-btn">Cancel</button>
+      </div>
+      
+    </div>
+    <!-- search-->
+    <input type="text" id="searchInput" placeholder="Search notes...">
+    <!-- notes conatiner-->
+    <div id="notesContainer"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
